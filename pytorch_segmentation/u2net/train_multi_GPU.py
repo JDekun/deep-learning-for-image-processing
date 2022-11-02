@@ -169,7 +169,7 @@ if __name__ == "__main__":
         description=__doc__)
 
     # 训练文件的根目录(VOCdevkit)
-    parser.add_argument('--data-path', default='./', help='DUTS root')
+    parser.add_argument('--data-path', default='../../../../input/DUTS', help='DUTS root')
     # 训练设备类型
     parser.add_argument('--device', default='cuda', help='device')
     # 每块GPU上的batch_size
